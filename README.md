@@ -1,2 +1,2 @@
-# hyperpair.github.io
+# hyperpair.com
 hyperpair website

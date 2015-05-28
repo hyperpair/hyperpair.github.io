@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Hyperpair - Pairing on things</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="description" content="Hyperpair pairing on internet">
+  <meta name="author" content="hyperpair.com">
+
+  <!-- Load The Story -->
+  <link id="the-story-css-file"href="css/the-story.min.css" rel="stylesheet" media="screen">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="img/favicon.ico">
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="/js/html5shiv.js"></script>
+      <script src="/js/respond.min.js"></script>
+      <![endif]-->
+  <meta http-equiv=X-UA-Compatible content=IE=edge>    
+</head>
+
+<!-- activate scrollspy -->
+
+<body id="top" data-spy="scroll" data-target=".navbar" data-offset="50">
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="navbar-container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <i class="fa fa-reorder"></i>
+        </button>
+        <a class="navbar-brand" href="#">Hyperpair</a> 
+      </div>
+      <div id="nav-collapse" class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a title="Home" class="scroll brand-1" href="#home">Home</a></li>
+          <li><a title="Check out hyperpair" href="#features" class=" scroll brand-4">Features</a></li>
+        </ul>
+      </div>
+    </div><!-- /.navbar-container -->
+  </nav>
+
+  <!-- Home Page -->
+  <div id="home" class="page color-1">
+    <div class="inner-page">
+      <h2 class="page-headline large">Pairing API for IoT.</h2>
+    </div>
+    <div class="row inner-page">
+      <div class="col-md-6 col-md-push-6 lazy-container">
+        <img class="lazy" alt="Pairing on internet" src="img/pixel.png" data-original="img/pairing.png" />
+      </div>
+      <div class="col-md-6 col-md-pull-6">
+        <ul class="big-list">
+          <li><i class="fa fa-check"></i> Better than bluetooth/wifi pairing</li>
+          <li><i class="fa fa-arrows-h"></i> Unlimited distance</li>
+          <li><i class="fa fa-tablet"></i> Peer to peer connection </li>
+          <li><i class="fa fa-thumbs-o-up"></i> Open source</li>
+        </ul>
+        <br />
+        <a href="https://github.com/hyperpair" target="_blank" title="Get source!" class="scroll btn btn-primary btn-centered"><i class="fa fa-caret-right"></i> Get source </a>
+      </div>
+    </div>
+  </div> <!-- /#home -->
+
+  <!-- Sign up -->
+  <div class="sign-up color-2">
+    <div class="row inner-page">
+      <div class="col-md-12">
+        <h4 class="pull-left">Cost effective, because it's direct peer to peer connection WITHOUT server.</h4>
+		<!--
+        <a href="#features" class="scroll btn btn-primary pull-right" title="Check out more freatures!"><i class="fa fa-caret-down"></i> Scroll down</a>
+		-->
+      </div>
+    </div>
+  </div> <!-- /.sign-up -->
+
+  <!-- Feature page-->
+  <div id="features" class="page color-4">
+    <div class="inner-page">
+      <h2 class="page-headline">Hyper pairing</h2>
+	  <h2 class=""> Pairing! Based on network traversal for things and apps. </h2>
+    </div>
+    <div class="row inner-page">
+      <div class="col-md-7">
+        <h3>How it works?</h3>
+        <p class="lead">Peer to peer connection based on NAT traversal.</p>
+        <ul class="list-wide">
+          <li><i class="fa fa-check"></i> Read more about <a href="http://en.wikipedia.org/wiki/NAT_traversal" title="wikipedia" target="_blank">NAT traversal</a>
+          </li>
+          <li><i class="fa fa-check"></i> Based on WebRTC </li>
+          <li><i class="fa fa-check"></i> Supports STUN and TURN </li>
+          <li><i class="fa fa-check"></i> Supports ICE (RFC 5245) </li>
+        </ul>
+      </div>
+      <div class="col-md-5">
+        <h3>Schedule</h3>
+        <p class="lead">Ongoing. We need your contribution.</p>
+      </div>
+    </div>
+	<br/>
+	<br/>
+  </div>
+
+  <!-- Newsletter -->
+  <div class="newsletter color-1">
+    <div class="inner-page row">
+      <div class="col-md-4">
+        <h4>
+          <strong>Be cool</strong>, subscribe to get our latest news</h4>
+      </div>
+      <form action="//nourlyet.us6.list-manage.com/subscribe/post?u=e507f93f282f8e76906c642b6&amp;id=8af8e30996" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <div class="col-md-6">
+          <input style="color:#000000" type="email" placeholder="your@e-mail.com" name="EMAIL" class="subscribe" id="mce-EMAIL" required>
+        </div>
+        <div class="col-md-2">
+	      <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-primary pull-right btn-block">
+        </div>
+      </form>
+    </div>
+  </div> <!-- /newsletter -->
+
+  <!-- The footer, social media icons, and copyright -->
+  <footer class="page color-5">
+    <div class="inner-page row">
+      <div class="col-md-6 social">
+	  <!--
+        <a href="#contact"><i class="fa fa-twitter"></i></a>
+        <a href="#contact"><i class="fa fa-github-square"></i></a> 
+        <a href="#contact"><i class="fa fa-facebook-square"></i></a>
+        <a href="#contact"><i class="fa fa-google-plus-square"></i></a>
+	-->
+		<span id="emailpos"></span>
+      </div>
+      <div class="col-md-6 text-right copyright">
+        &copy; 2015 <a href="http://hyperpair.com" title="Hyperpair.com">hyperpair.com</a> | all rights reserved | <a href="#top" title="Got to top" class="scroll">To top <i class="fa fa-caret-up"></i></a>
+      </div>
+    </div>
+  </footer>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>
+  if (typeof jQuery == 'undefined') {
+    document.write(unescape("%3Cscript src='js/jquery-1.9.1.min.js' type='text/javascript'%3E%3C/script%3E"));
+  }
+  $("#emailpos").html("con"+"tact@"+"hyper"+"pair.com")
+  </script>
+
+  <!-- JQUERY END -->
+
+  <!-- Minimize in production. -->
+
+  <script src="js/the-story.min.js"></script>
+</body>
+</html>
